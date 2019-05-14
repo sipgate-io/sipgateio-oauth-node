@@ -44,10 +44,10 @@ In the Privacy Policy URL and Terms of use URL you must supply in the **New Clie
 In the [config.json](./config.json) file located in the project root directory insert `YOUR_CLIENT_ID` and `YOUR_CLIENT_SECRET` obtained in Step 7 above:
 
 ```json
-[...]
+...
 "clientId": "YOUR_CLIENT_ID",
 "clientSecret": "YOUR_CLIENT_SECRET",
-[...]
+...
 ```
 
 The `oauth_scope` defines what kind of access your Client should have to your account and is specific to your respective application. In this case, since we only want to get your basic account information as an example, the scope `account:read` is sufficient.
@@ -60,10 +60,10 @@ oauth_scope=account:read
 The `redirect_uri` which we have previously used in the creation of our Client is supplied to the sipgate login page to specify where you want to be redirected after successful login. As explained above, our application provides a small web server itself that handles HTTP requests directed at `http://localhost:8080/oauth`. In case there is already a service listening on port `8080` of your machine you can choose a different port number, but be sure to adjust both the `redirect_uri` and the `port` property accordingly.
 
 ```json
-[...]
+...
 "redirectUri": "http://localhost:8080/oauth",
 "port": 8080,
-[...]
+...
 ```
 
 
@@ -185,10 +185,10 @@ We use Axios to send a POST-Request to the authorization server to obtain a set 
 
 The `refreshTokens` function is very similar to the `retrieveTokens` function. It differs in that we set the `grant_type` to `refresh_token` to indicate that we want to refresh our token, and provide the `refresh_token` we got from the `retrieveTokens` function instead of the `code`.
 > ```javascript
-> [...]
+> ...
 > refresh_token: refreshToken,
 > grant_type: 'refresh_token',
-> [...]
+> ...
 > ```
 
 To see if authorization with the token works, we query the `/authorization/userinfo` endpoint of the REST API.
