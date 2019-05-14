@@ -205,7 +205,7 @@ const userInfo = async accessToken => {
 	return response.data;
 };
 ```
-To use the token for authorization we set the `Authorization` header to `Bearer ` followed by a space and the `accessToken` we obtained with the `retrieveTokens` or `refreshTokens` function.
+To use the token for authorization we set the `Authorization` header to `Bearer` followed by a space and the `accessToken` we obtained with the `retrieveTokens` or `refreshTokens` function.
 
 
 ## Common Issues
