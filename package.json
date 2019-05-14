@@ -1,0 +1,19 @@
+{
+  "name": "sipgateio-oauth-node",
+  "version": "1.0.0",
+  "description": "A demonstration on how to authenticate against the sipgate REST API using the OAuth mechanism.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "engines": {
+    "node": "10.15.3"
+  },
+  "license": "Unlicense",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "uuid": "^3.3.2"
+  }
+}
