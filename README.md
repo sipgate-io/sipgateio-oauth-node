@@ -68,9 +68,7 @@ The `redirect_uri` which we have previously used in the creation of our Client i
 
 
 ## Install dependencies
-Navigate to the project's root directory.
-
-Run the application:
+Navigate to the project's root directory and run:
 ```bash
 $ npm install
 ```
