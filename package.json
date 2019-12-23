@@ -7,7 +7,8 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "sipgate.io Team <io-team@sipgate.de>",
+  "repository": "https://github.com/sipgate-io/sipgateio-oauth-node",
   "engines": {
     "node": "10.15.3"
   },
