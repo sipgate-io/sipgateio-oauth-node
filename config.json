@@ -1,6 +1,6 @@
 {
-	"authUrl": "https://login.sipgate.com/auth/realms/third-party/protocol/openid-connect/auth",
-	"tokenUrl": "https://login.sipgate.com/auth/realms/third-party/protocol/openid-connect/token",
+	"authUrl": "https://login.sipgate.com/auth/realms/sipgate-apps/protocol/openid-connect/auth",
+	"tokenUrl": "https://login.sipgate.com/auth/realms/sipgate-apps/protocol/openid-connect/token",
 	"clientId": "YOUR_CLIENT_ID",
 	"clientSecret": "YOUR_CLIENT_SECRET",
 	"oauthScope": "account:read",
