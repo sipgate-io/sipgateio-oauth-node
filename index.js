@@ -4,9 +4,11 @@ const uuidv4 = require('uuid/v4');
 const url = require('url');
 const axios = require('axios');
 
-const config = require('./config.json');
+require('dotenv').config()
 
 const sessionState = uuidv4();
+
+const config = process.env
 
 const params = {
 	client_id: config.clientId,
