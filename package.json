@@ -14,7 +14,7 @@
   },
   "license": "Unlicense",
   "dependencies": {
-    "axios": "^0.21.2",
+    "axios": "^1.6.0",
     "dotenv": "^16.0.2",
     "uuid": "^3.3.2"
   }
